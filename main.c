@@ -6,7 +6,7 @@
 /*   By: juligonz <juligonz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/06 17:33:39 by juligonz          #+#    #+#             */
-/*   Updated: 2020/03/06 17:55:44 by juligonz         ###   ########.fr       */
+/*   Updated: 2020/03/06 18:01:51 by juligonz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,8 @@ typedef union	u_color
 	t_rgba		rgba;
 }				t_color;
 
+
+// gcc -L.   main.c -lmlx
 int main(void)
 {
 
